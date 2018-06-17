@@ -1,5 +1,5 @@
 const http = require('http');
-const chalk = require('chalk');
+// const chalk = require('chalk');
 const path = require('path');
 const routs = require('./utils/routs');
 const conf = require('./config');
@@ -17,7 +17,8 @@ class Server {
 
         server.listen(this.conf.port, this.conf.hostname, () => {
             const addr = `http://${this.conf.hostname}:${this.conf.port}`;
-            console.info(`Server started at ${chalk.green(addr)}`);
+            // chalk.green()
+            console.info(`Server started at ${addr}`);
             openBrowers(addr);
         });
     }
