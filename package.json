@@ -1,5 +1,5 @@
 {
-  "name": "anydoor",
+  "name": "nodedoor",
   "version": "0.2.0",
   "description": "Nodejs Static Web server",
   "main": "src/app.js",
@@ -8,7 +8,7 @@
     "fix": "eslint --fix ."
   },
   "bin": {
-    "anydoor": "bin/anydoor"
+    "nodedoor": "bin/nodedoor"
   },
   "pre-commit": [
     "fix",
