@@ -1,6 +1,6 @@
 {
   "name": "nodedoor",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Nodejs Static Web server",
   "main": "src/app.js",
   "scripts": {
